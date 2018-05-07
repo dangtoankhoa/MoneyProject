@@ -1,0 +1,2 @@
+﻿--- Implement the profile configure for Domain Entity to DTO by AutoMapper ---
+Create the configure file by extend the Profile class of AutoMapper

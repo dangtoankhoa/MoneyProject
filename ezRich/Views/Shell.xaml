@@ -1,0 +1,12 @@
+﻿<mui:MetroWindow x:Class="ezRich.Views.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:mui="http://metro.mahapps.com/winfx/xaml/controls"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        WindowState="Maximized"
+        Title="{Binding Title}" ToolTip="{Binding Tooltip}" ToolTipService.Placement="Mouse" Height="350" Width="525" TitleCaps="False">
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+    </Grid>
+</mui:MetroWindow>
